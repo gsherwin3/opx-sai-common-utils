@@ -35,7 +35,8 @@
  * @todo File path should be passed from Adapter Host and this
  * macro should be removed.
  */
-#define SAI_INIT_CONFIG_FILE               "/etc/opx/sai/init.xml"
+/* EXTREME_HACK #define SAI_INIT_CONFIG_FILE               "/etc/opx/sai/init.xml" */
+#define SAI_INIT_CONFIG_FILE               "/etc/opx/dell-s6000-vm/sai/init.xml"
 
 /**
  * @def SAI_ATTR_INFO_TYPE
