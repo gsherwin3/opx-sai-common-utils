@@ -35,8 +35,7 @@
  * @todo File path should be passed from Adapter Host and this
  * macro should be removed.
  */
-/* EXTREME_HACK temp address in snapcraft_vm.yaml #define SAI_INIT_CONFIG_FILE               "/etc/opx/sai/init.xml" */
-#define SAI_INIT_CONFIG_FILE               "/vendor/dell/s6000-vm/etc/opx/sai/init.xml"
+#define SAI_INIT_CONFIG_FILE               "/etc/opx/sai/init.xml"
 
 /**
  * @def SAI_ATTR_INFO_TYPE
